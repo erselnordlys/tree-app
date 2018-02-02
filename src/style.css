@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 128px;
+  font-size: 18px;
+}
+
+.lvl {
+  padding: 5px 3px 5px 10px;
+  border-bottom: 1px solid lightgray;
+  list-style: none;
+}
+
+.lvl.clickable {
+  cursor: pointer;
+}
